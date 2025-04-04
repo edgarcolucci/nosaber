@@ -1,1 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4B0082; /* Violeta suave */
+}
 
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4B0082; /* Violeta suave */
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section.light-gray {
+    background-color: #f7f7f7;
+}
+
+#inicio {
+    background-color: #fff;
+    color: #E6E6FA; /* Lavanda */
+}
+
+#inicio h1 {
+    font-size: 2.5em;
+}
+
+#inicio p {
+    font-size: 1.2em;
+}
+
+#inicio blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+#inicio button {
+    padding: 10px 20px;
+    background-color: #4B0082; /* Violeta suave */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#modalidades .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    min-width: 250px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4B0082; /* Violeta suave */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
