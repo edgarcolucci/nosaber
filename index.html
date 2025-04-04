@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Arte de No Saber</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#metodo">¿Qué es este método?</a></li>
+                <li><a href="#modalidades">Modalidades del Acompañamiento</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#agenda">Agenda una sesión</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="inicio" class="section">
+        <div class="content">
+            <h1>El Arte de No Saber</h1>
+            <p>Acompañamiento simbólico, uno a uno, desde la observación y el silencio.</p>
+            <blockquote>“No tengo las respuestas, pero puedo ayudarte a hacer las preguntas que importan.”</blockquote>
+            <button>Reservar una sesión</button>
+        </div>
+    </section>
+
+    <section id="metodo" class="section light-gray">
+        <div class="content">
+            <h2>¿Qué es este método?</h2>
+            <ul>
+                <li>Sin fórmulas.</li>
+                <li>Sin juicios.</li>
+                <li>Desde la presencia y la pregunta.</li>
+                <li>Acompañar sin invadir.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="modalidades" class="section">
+        <div class="content">
+            <h2>Modalidades del Acompañamiento</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>En mi espacio</h3>
+                    <p>Un lugar tranquilo para que te encuentres con vos mismo/a.</p>
+                </div>
+                <div class="column">
+                    <h3>En tu hogar – El arte de armonizar tu espacio personal</h3>
+                    <p>Acompañamiento + armonización de tu entorno. Podés guiarte por lo que veníamos armando.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section light-gray">
+        <div class="content">
+            <h2>Sobre mí</h2>
+            <p>“No me posiciono como guía ni terapeuta. Acompaño desde el no saber, sosteniendo preguntas, imágenes, silencios y presencia.”</p>
+        </div>
+    </section>
+
+    <section id="agenda" class="section">
+        <div class="content">
+            <h2>Agenda una sesión</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email / WhatsApp:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="modalidad">Elegí modalidad:</label>
+                <select id="modalidad" name="modalidad">
+                    <option value="espacio">Presencial en mi espacio</option>
+                    <option value="domicilio">A domicilio</option>
+                </select>
+                <label for="mensaje">¿Querés contarme algo antes de encontrarnos?</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content">
+            <div class="social-media">
+                <!-- Incluye enlaces a tus redes sociales aquí -->
+            </div>
+            <p>&copy; 2025 El Arte de No Saber. Todos los derechos reservados.</p>
+            <p>Posiblemente una frase suave o símbolo sutil</p>
+        </div>
+    </footer>
+</body>
+</html>
