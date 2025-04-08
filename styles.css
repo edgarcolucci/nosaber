@@ -39,11 +39,13 @@ nav ul li a {
 
 #inicio {
     background-color: #fff;
-    color: #E6E6FA; /* Lavanda */
+    color: #2E0854; /* Violeta oscuro */
 }
 
 #inicio h1 {
-    font-size: 2.5em;
+    font-size: 3em;
+    color: #2E0854; /* Color más oscuro para el título */
+    font-weight: bold;
 }
 
 #inicio p {
@@ -115,4 +117,9 @@ footer {
 
 footer .social-media {
     margin-bottom: 10px;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
 }
